@@ -7,15 +7,18 @@ date_end = max(unique(dates));
 Age_category = {'10歳未満', '10代', '20代', '30代', '40代', '50代', '60代',...
     '70代','80代','90代', '100歳以上', '不明'};
 
-f=figure(2);hold on;
+f=figure(2);hold on; 
+max_val = 0;
 for idx_age = 1:length(Age_category)
-    ax = subplot(3,4,idx_age);
+    ax(idx_age) = subplot(3,4,idx_age);
     sel = strcmp(data.Age,Age_category{idx_age});
-    histogram(dates(sel),date_start:date_end)
-    
-    ax.XTickLabel = datestr(ax.XTick);
-    ax.XTickLabelRotation = 30;
-    ax.FontSize = 12;
+    tmp = histogram(dates(sel),date_start:date_end);
+    max_val = max(max_val, max(tmp.Values));
+    ax(idx_age).XTickLabel = datestr(ax(idx_age).XTick);
+    ax(idx_age).XTickLabelRotation = 30;
+    ax(idx_age).FontSize = 12;
     title(Age_category{idx_age},'Fontsize',20);
-    ax.YLim = [0,50];
+end
+for idx_age = 1:length(Age_category)
+    ax(idx_age).YLim = [0,max_val+5];
 end
