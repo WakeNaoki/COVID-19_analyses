@@ -6,4 +6,6 @@ histogram(dates,date_start:date_end)
 ax=gca;
 ax.XTickLabel = datestr(ax.XTick);
 ax.XTickLabelRotation = 30;
-title('Cases count');
+ax.FontSize = 12;
+
+title('Count of cases','Fontsize',24);
