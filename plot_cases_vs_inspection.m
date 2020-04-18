@@ -35,7 +35,7 @@ c = colorbar;
 c.Label.FontSize = 20;
 c.Label.String = 'Normalized date';
 xlabel('# of inspections in a day')
-ylabel('# of CVcases in a day')
+ylabel('# of new CVcases in a day')
 ax = gca;
 ax.FontSize = 12;
 title('#Inspection vs #CVcases','Fontsize',20);
