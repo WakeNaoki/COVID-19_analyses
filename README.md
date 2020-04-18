@@ -13,4 +13,4 @@ plot_cases_age.m
 
 plot_cases_vs_inspection.m
 
-![untitled](https://user-images.githubusercontent.com/3739605/79641163-ba7a9d80-81d0-11ea-9a15-80423fefe51d.jpg)
+![untitled](https://user-images.githubusercontent.com/3739605/79641911-67571980-81d5-11ea-94c8-5bb85b2acd22.jpg)
