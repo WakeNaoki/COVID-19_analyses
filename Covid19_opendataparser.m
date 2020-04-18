@@ -10,5 +10,5 @@ data.Properties.VariableNames{10} = 'Gender';
 data.Properties.VariableNames{16} = 'IsDischarged';
 
 for i = 1:size(data,1)
-    data.Date{i} = datenum(data.Date{1});
+    data.Date{i} = datenum(data.Date{i});
 end
