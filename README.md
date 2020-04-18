@@ -9,7 +9,7 @@ plot_cases.m
 
 plot_cases_age.m
 
-![untitled](https://user-images.githubusercontent.com/3739605/79639374-771b3180-81c6-11ea-9ca0-3e08436b22e4.jpg)
+![untitled](https://user-images.githubusercontent.com/3739605/79641765-81dcc300-81d4-11ea-9bde-6b180cca7ff8.jpg)
 
 plot_cases_vs_inspection.m
 
