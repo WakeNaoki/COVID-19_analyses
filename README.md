@@ -5,7 +5,7 @@ download data from https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid
 
 plot_cases.m
 
-![untitled](https://user-images.githubusercontent.com/3739605/79641466-adf74480-81d2-11ea-8828-be54fa276c83.jpg)
+![untitled](https://user-images.githubusercontent.com/3739605/79641733-535ee800-81d4-11ea-87b8-df9f422b05eb.jpg)
 
 plot_cases_age.m
 
