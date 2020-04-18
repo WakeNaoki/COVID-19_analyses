@@ -9,4 +9,4 @@ plot_cases.m
 
 plot_cases_age.m
 
-![untitled](https://user-images.githubusercontent.com/3739605/79639095-4df9a180-81c4-11ea-8d3a-6b55a4c194ff.jpg)
+![untitled](https://user-images.githubusercontent.com/3739605/79639374-771b3180-81c6-11ea-9ca0-3e08436b22e4.jpg)
