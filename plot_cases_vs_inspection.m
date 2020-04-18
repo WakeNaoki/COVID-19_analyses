@@ -4,7 +4,7 @@ end
 event_dates = cell2mat(data.Date);
 date_start = min(unique(event_dates));
 date_end = max(unique(event_dates));
-date = date_start:date_end;
+date = date_start:date_end+1;
 cases=histcounts(event_dates,date);
 
 dates_inspection_idx = cell2mat(data_inspection.Date);
@@ -23,7 +23,7 @@ figure(3);hold on;
 tmp_m = colormap('jet');
 for i = 1:length(cases)
     idx = round((size(tmp_m,1)-1)*(double(i)/length(cases)))+1;
-    plot(cases_inspection(i),cases(i),'.','MarkerFaceColor',tmp_m(idx,:),'MarkerEdgeColor',tmp_m(idx,:),'MarkerSize',5);
+    plot(cases_inspection(i),cases(i),'.','MarkerFaceColor',tmp_m(idx,:),'MarkerEdgeColor',tmp_m(idx,:),'MarkerSize',10);
 end
 
 axis equal
