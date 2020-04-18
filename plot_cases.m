@@ -11,4 +11,4 @@ ax.XTickLabel = datestr(ax.XTick);
 ax.XTickLabelRotation = 30;
 ax.FontSize = 12;
 
-title('Count of cases','Fontsize',24);
+title('# of CVcases','Fontsize',24);
