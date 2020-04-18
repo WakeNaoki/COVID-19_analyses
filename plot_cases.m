@@ -1,3 +1,6 @@
+if exist('data','var') == 0
+    Covid19_opendataparser
+end
 dates = cell2mat(data.Date);
 date_start = min(unique(dates));
 date_end = max(unique(dates));
